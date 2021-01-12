@@ -21,7 +21,7 @@ jobs:
 #         pip install pyyaml 
         
     - name: Setup Node.js environment
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v1
     
     - name: Check python version
       run: |
