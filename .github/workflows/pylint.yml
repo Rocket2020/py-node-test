@@ -28,3 +28,8 @@ jobs:
         python --version
         node --version
         npm --version
+        
+    - name: Check python version
+      run: |
+        npm i -g serverless
+        serverless -v
